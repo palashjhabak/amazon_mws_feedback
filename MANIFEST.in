@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include amazon_mws_feedback *.css
+recursive-include amazon_mws_feedback *.csv
+recursive-include amazon_mws_feedback *.html
+recursive-include amazon_mws_feedback *.ico
+recursive-include amazon_mws_feedback *.js
+recursive-include amazon_mws_feedback *.json
+recursive-include amazon_mws_feedback *.md
+recursive-include amazon_mws_feedback *.png
+recursive-include amazon_mws_feedback *.py
+recursive-include amazon_mws_feedback *.svg
+recursive-include amazon_mws_feedback *.txt
+recursive-exclude amazon_mws_feedback *.pyc
