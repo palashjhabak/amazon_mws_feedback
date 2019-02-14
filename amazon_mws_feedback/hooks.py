@@ -90,6 +90,12 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
+scheduler_events = {
+	"all": [
+		"amazon_mws_feedback.amazon_mws_feedback.doctype.amazon_feedback_request.amazon_feedback_request.send_amazon_feedback"
+	]
+}
+
 # scheduler_events = {
 # 	"all": [
 # 		"amazon_mws_feedback.tasks.all"
